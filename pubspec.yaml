@@ -1,0 +1,54 @@
+name: fda_aloha_music
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  audioplayers: ^6.0.0
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  material_design_icons_flutter: ^6.0.0
+  flutter_card_swiper: ^7.0.0
+  flutter_native_splash: ^2.3.10
+  video_player: ^2.8.3
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter_native_splash:
+  background_image: "assets/background.jpg"
+  branding: assets/musicicon.png
+  android_12:
+    
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/barbiegirl.jpg
+    - assets/basketbol.jpg
+    - assets/beautifulsunday.jpg
+    - assets/bulaklak.jpg
+    - assets/iceicebaby.jpg
+    - assets/idonnawanna.jpg
+    - assets/inano.jpg
+    - assets/nothingsgonna.png
+    - assets/obladi.jpg
+    - assets/touchbytouch.jpg
+    - assets/musicicon.png
+    - assets/background.jpg
+    - video/vidback.mp4
+    - song/iceice.mp3
+    - song/idonwanna.mp3
+    - song/barbie.mp3
+    - song/basketbol.mp3
+    - song/sunday.mp3
+    - song/bulaklak.mp3
+    - song/inano.mp3
+    - song/nothingsgonnachange.mp3
+    - song/obladi.mp3
+    - song/touchbytouch.mp3
